@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25399E8F1D42B65900373A7C /* Courses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25399E8E1D42B65900373A7C /* Courses.swift */; };
+		25399E911D42F5BD00373A7C /* AddReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25399E901D42F5BD00373A7C /* AddReviewViewController.swift */; };
+		25399E941D430E4900373A7C /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25399E931D430E4900373A7C /* SignInViewController.swift */; };
+		25399E9E1D45702900373A7C /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25399E9D1D45702900373A7C /* Review.swift */; };
+		25399EA01D457BB200373A7C /* ReviewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25399E9F1D457BB200373A7C /* ReviewCell.xib */; };
+		25399EA21D457C5600373A7C /* TableViewReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25399EA11D457C5600373A7C /* TableViewReviewCell.swift */; };
+		258E563D1D49A83C00EBF1E2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 258E563C1D49A83C00EBF1E2 /* GoogleService-Info.plist */; };
+		25C1E2081D42B4F000DB27EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C1E2071D42B4F000DB27EC /* AppDelegate.swift */; };
+		25C1E20D1D42B4F000DB27EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25C1E20B1D42B4F000DB27EC /* Main.storyboard */; };
+		25C1E20F1D42B4F000DB27EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25C1E20E1D42B4F000DB27EC /* Assets.xcassets */; };
+		25C1E2121D42B4F000DB27EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25C1E2101D42B4F000DB27EC /* LaunchScreen.storyboard */; };
+		25C1E21A1D42B50D00DB27EC /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C1E2191D42B50D00DB27EC /* TableViewCell.swift */; };
+		25C1E21C1D42B51400DB27EC /* CourseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25C1E21B1D42B51400DB27EC /* CourseCell.xib */; };
+		25C1E21E1D42B52A00DB27EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C1E21D1D42B52A00DB27EC /* ViewController.swift */; };
+		25C1E2201D42B55F00DB27EC /* CoursesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C1E21F1D42B55F00DB27EC /* CoursesController.swift */; };
+		25C1E2221D42B56400DB27EC /* ReviewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C1E2211D42B56400DB27EC /* ReviewsViewController.swift */; };
+		25C1E2241D42B57C00DB27EC /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 25C1E2231D42B57C00DB27EC /* Podfile */; };
+		DA3B2DD149A084FC9C57E3B3 /* libPods-Hotchkiss Course Review.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 918DFF1581C1B8933D1785B5 /* libPods-Hotchkiss Course Review.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25399E8E1D42B65900373A7C /* Courses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Courses.swift; sourceTree = "<group>"; };
+		25399E901D42F5BD00373A7C /* AddReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddReviewViewController.swift; sourceTree = "<group>"; };
+		25399E931D430E4900373A7C /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		25399E9D1D45702900373A7C /* Review.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		25399E9F1D457BB200373A7C /* ReviewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReviewCell.xib; sourceTree = "<group>"; };
+		25399EA11D457C5600373A7C /* TableViewReviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewReviewCell.swift; sourceTree = "<group>"; };
+		258E563C1D49A83C00EBF1E2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		25993F821D692A4E009C89B0 /* HotchkissCourseReview-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HotchkissCourseReview-Bridging-Header.h"; sourceTree = "<group>"; };
+		25C1E2041D42B4F000DB27EC /* Hotchkiss Course Review.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hotchkiss Course Review.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25C1E2071D42B4F000DB27EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		25C1E20C1D42B4F000DB27EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25C1E20E1D42B4F000DB27EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25C1E2111D42B4F000DB27EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25C1E2131D42B4F000DB27EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25C1E2191D42B50D00DB27EC /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		25C1E21B1D42B51400DB27EC /* CourseCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CourseCell.xib; sourceTree = "<group>"; };
+		25C1E21D1D42B52A00DB27EC /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		25C1E21F1D42B55F00DB27EC /* CoursesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoursesController.swift; sourceTree = "<group>"; };
+		25C1E2211D42B56400DB27EC /* ReviewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewsViewController.swift; sourceTree = "<group>"; };
+		25C1E2231D42B57C00DB27EC /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		918DFF1581C1B8933D1785B5 /* libPods-Hotchkiss Course Review.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Hotchkiss Course Review.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F1C649E01CF640769C2AA3 /* Pods-Hotchkiss Course Review.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hotchkiss Course Review.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hotchkiss Course Review/Pods-Hotchkiss Course Review.release.xcconfig"; sourceTree = "<group>"; };
+		C306E738E1D08372D2882627 /* Pods-Hotchkiss Course Review.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hotchkiss Course Review.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hotchkiss Course Review/Pods-Hotchkiss Course Review.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25C1E2011D42B4F000DB27EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3B2DD149A084FC9C57E3B3 /* libPods-Hotchkiss Course Review.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25C1E1FB1D42B4F000DB27EC = {
+			isa = PBXGroup;
+			children = (
+				25C1E2231D42B57C00DB27EC /* Podfile */,
+				25C1E2061D42B4F000DB27EC /* Hotchkiss Course Review */,
+				25C1E2051D42B4F000DB27EC /* Products */,
+				DC1C248D23FAB2B354E62F1D /* Pods */,
+				AE8679A7262C2EC6FF2A0F74 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		25C1E2051D42B4F000DB27EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25C1E2041D42B4F000DB27EC /* Hotchkiss Course Review.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25C1E2061D42B4F000DB27EC /* Hotchkiss Course Review */ = {
+			isa = PBXGroup;
+			children = (
+				25C1E2191D42B50D00DB27EC /* TableViewCell.swift */,
+				25C1E21B1D42B51400DB27EC /* CourseCell.xib */,
+				25399EA11D457C5600373A7C /* TableViewReviewCell.swift */,
+				25399E9F1D457BB200373A7C /* ReviewCell.xib */,
+				25C1E2071D42B4F000DB27EC /* AppDelegate.swift */,
+				25399E931D430E4900373A7C /* SignInViewController.swift */,
+				25993F821D692A4E009C89B0 /* HotchkissCourseReview-Bridging-Header.h */,
+				25C1E21D1D42B52A00DB27EC /* ViewController.swift */,
+				25399E8E1D42B65900373A7C /* Courses.swift */,
+				25C1E21F1D42B55F00DB27EC /* CoursesController.swift */,
+				25C1E2211D42B56400DB27EC /* ReviewsViewController.swift */,
+				25399E901D42F5BD00373A7C /* AddReviewViewController.swift */,
+				25399E9D1D45702900373A7C /* Review.swift */,
+				25C1E20B1D42B4F000DB27EC /* Main.storyboard */,
+				25C1E20E1D42B4F000DB27EC /* Assets.xcassets */,
+				25C1E2101D42B4F000DB27EC /* LaunchScreen.storyboard */,
+				25C1E2131D42B4F000DB27EC /* Info.plist */,
+				258E563C1D49A83C00EBF1E2 /* GoogleService-Info.plist */,
+			);
+			path = "Hotchkiss Course Review";
+			sourceTree = "<group>";
+		};
+		AE8679A7262C2EC6FF2A0F74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				918DFF1581C1B8933D1785B5 /* libPods-Hotchkiss Course Review.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC1C248D23FAB2B354E62F1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C306E738E1D08372D2882627 /* Pods-Hotchkiss Course Review.debug.xcconfig */,
+				A7F1C649E01CF640769C2AA3 /* Pods-Hotchkiss Course Review.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25C1E2031D42B4F000DB27EC /* Hotchkiss Course Review */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25C1E2161D42B4F000DB27EC /* Build configuration list for PBXNativeTarget "Hotchkiss Course Review" */;
+			buildPhases = (
+				4AE828467F7F9A91595CCD3D /* [CP] Check Pods Manifest.lock */,
+				25C1E2001D42B4F000DB27EC /* Sources */,
+				25C1E2011D42B4F000DB27EC /* Frameworks */,
+				25C1E2021D42B4F000DB27EC /* Resources */,
+				C4E1782EF34EC2ECA6E2CB10 /* [CP] Embed Pods Frameworks */,
+				09C1D653BCCA9B6FDC0B8AC7 /* [CP] Copy Pods Resources */,
+				250526A41D5427050005C779 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hotchkiss Course Review";
+			productName = "Hotchkiss Course Review";
+			productReference = 25C1E2041D42B4F000DB27EC /* Hotchkiss Course Review.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25C1E1FC1D42B4F000DB27EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kobi Greene";
+				TargetAttributes = {
+					25C1E2031D42B4F000DB27EC = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = LRYY8M9ZF9;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 25C1E1FF1D42B4F000DB27EC /* Build configuration list for PBXProject "Hotchkiss Course Review" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25C1E1FB1D42B4F000DB27EC;
+			productRefGroup = 25C1E2051D42B4F000DB27EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25C1E2031D42B4F000DB27EC /* Hotchkiss Course Review */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25C1E2021D42B4F000DB27EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25C1E2241D42B57C00DB27EC /* Podfile in Resources */,
+				25C1E21C1D42B51400DB27EC /* CourseCell.xib in Resources */,
+				25399EA01D457BB200373A7C /* ReviewCell.xib in Resources */,
+				258E563D1D49A83C00EBF1E2 /* GoogleService-Info.plist in Resources */,
+				25C1E2121D42B4F000DB27EC /* LaunchScreen.storyboard in Resources */,
+				25C1E20F1D42B4F000DB27EC /* Assets.xcassets in Resources */,
+				25C1E20D1D42B4F000DB27EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09C1D653BCCA9B6FDC0B8AC7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hotchkiss Course Review/Pods-Hotchkiss Course Review-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		250526A41D5427050005C779 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" e98c39aa42f6d33fec3e80d53cbe0a855b5e57fc 96afcfe19f08e946bbb8ac539085bd661170f1e946a2974541d275677e6fee19";
+		};
+		4AE828467F7F9A91595CCD3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C4E1782EF34EC2ECA6E2CB10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hotchkiss Course Review/Pods-Hotchkiss Course Review-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25C1E2001D42B4F000DB27EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25399EA21D457C5600373A7C /* TableViewReviewCell.swift in Sources */,
+				25C1E21E1D42B52A00DB27EC /* ViewController.swift in Sources */,
+				25C1E2221D42B56400DB27EC /* ReviewsViewController.swift in Sources */,
+				25399E9E1D45702900373A7C /* Review.swift in Sources */,
+				25399E8F1D42B65900373A7C /* Courses.swift in Sources */,
+				25C1E21A1D42B50D00DB27EC /* TableViewCell.swift in Sources */,
+				25399E941D430E4900373A7C /* SignInViewController.swift in Sources */,
+				25C1E2201D42B55F00DB27EC /* CoursesController.swift in Sources */,
+				25C1E2081D42B4F000DB27EC /* AppDelegate.swift in Sources */,
+				25399E911D42F5BD00373A7C /* AddReviewViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25C1E20B1D42B4F000DB27EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25C1E20C1D42B4F000DB27EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25C1E2101D42B4F000DB27EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25C1E2111D42B4F000DB27EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25C1E2141D42B4F000DB27EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25C1E2151D42B4F000DB27EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25C1E2171D42B4F000DB27EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C306E738E1D08372D2882627 /* Pods-Hotchkiss Course Review.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LRYY8M9ZF9;
+				INFOPLIST_FILE = "Hotchkiss Course Review/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kobi.Hotchkiss-Course-Review";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Hotchkiss Course Review/HotchkissCourseReview-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		25C1E2181D42B4F000DB27EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7F1C649E01CF640769C2AA3 /* Pods-Hotchkiss Course Review.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LRYY8M9ZF9;
+				INFOPLIST_FILE = "Hotchkiss Course Review/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kobi.Hotchkiss-Course-Review";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Hotchkiss Course Review/HotchkissCourseReview-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25C1E1FF1D42B4F000DB27EC /* Build configuration list for PBXProject "Hotchkiss Course Review" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25C1E2141D42B4F000DB27EC /* Debug */,
+				25C1E2151D42B4F000DB27EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25C1E2161D42B4F000DB27EC /* Build configuration list for PBXNativeTarget "Hotchkiss Course Review" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25C1E2171D42B4F000DB27EC /* Debug */,
+				25C1E2181D42B4F000DB27EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25C1E1FC1D42B4F000DB27EC /* Project object */;
+}
